@@ -1,0 +1,17 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'base';
+@import 'test';
+
+body {
+  color: #333;
+}
+
+
+.foo {
+  font-weight: bold;
+
+  .bar {
+    color: #fff;
+    display: flex;
+  }
+}
